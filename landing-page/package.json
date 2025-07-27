@@ -11,6 +11,7 @@
   "dependencies": {
     "@stylexjs/stylex": "0.9.3",
     "@types/node": "^24.1.0",
+    "js-cookies": "^1.0.4",
     "react": "^19.0.0-rc-f38c22b244-20240704",
     "react-dom": "^19.0.0-rc-f38c22b244-20240704",
     "save-dev": "^0.0.1-security"
@@ -21,6 +22,7 @@
     "@babel/plugin-syntax-jsx": "^7.24.7",
     "@babel/plugin-syntax-typescript": "^7.24.7",
     "@babel/types": "^7.25.8",
+    "@types/js-cookie": "^3.0.6",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.3.1",
