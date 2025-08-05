@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunester - Music & Entertainment</title>
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Tunester - Music, Concerts, Fashion, Fandom">
+  <meta property="og:description" content="Discover Tunester, your hub for music streaming, PPV concerts, fashion, and fandom. Coming soon!">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Tunester+Profile">
+  <meta property="og:url" content="https://tunester.example.com">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="hiphopdon@tunester.space">
+  <meta name="keywords" content="tunester, tunesterent, musicstreaming, ppv">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Typed.js CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <style>
+    /* Glassmorphism Effect */
+    .glass {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+    /* Custom Font for Instagram-like Aesthetic */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black min-h-screen flex items-center justify-center p-4">
+  <div class="max-w-md w-full text-center">
+    <!-- Typed Text Animation -->
+    <h1 class="text-3xl md:text-4xl font-bold text-white mb-6">
+      <span id="typed-text"></span>
+    </h1>
+    <!-- Glassmorphic Profile Card -->
+    <div class="glass rounded-2xl p-6 text-white">
+      <div class="flex items-center space-x-4">
+        <img src="https://pbs.twimg.com/profile_banners/1814349666651385857/1727123150/600x200" alt="Profile Picture" class="w-24 h-24 rounded-full border-2 border-white/30 object-cover">
+        <div class="text-left">
+          <h2 class="text-xl font-bold">hiphopdon@tunester.space</h2>
+          <p class="text-sm opacity-80">Tunester</p>
+        </div>
+      </div>
+      <p class="mt-4 text-sm opacity-90">Looking to connect with the biggest name artists in hiphop!</p>
+      <div class="mt-4 flex justify-around text-sm">
+        <div>
+          <span class="font-bold">1.2M</span>
+          <p class="opacity-80">Concerts</p>
+        </div>
+        <div>
+          <span class="font-bold">350</span>
+          <p class="opacity-80">Music Collections</p>
+        </div>
+        <div>
+          <span class="font-bold">120</span>
+          <p class="opacity-80">Fashion Collections</p>
+        </div>
+      </div>
+      <button class="mt-6 w-full bg-white/20 hover:bg-white/30 text-white py-2 rounded-lg transition duration-300">
+        Follow
+      </button>
+    </div>
+    <!-- Coming Soon Text -->
+    <p class="mt-6 text-white text-lg font-medium">Coming Soon!</p>
+  </div>
+
+  <!-- Typed.js Script -->
+  <script>
+    var typed = new Typed('#typed-text', {
+      strings: ['Music.', 'Concerts.', 'Fashion.', 'Fandom.'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+</body>
+</html>
